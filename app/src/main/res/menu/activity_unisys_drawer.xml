@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/web"
+            android:icon="@drawable/youtobe"
+            android:title="Tersu" />
+        <item
+            android:id="@+id/ele"
+            android:icon="@drawable/youtobe"
+            android:title="Unisys (Elektiron dekanad)" />
+        <item
+            android:id="@+id/student"
+            android:icon="@drawable/youtobe"
+            android:title="Unisys (Talaba)" />
+
+        <item
+            android:id="@+id/axborot"
+            android:icon="@drawable/youtobe"
+            android:title="Axborot texnologiyalar markazi" />
+        <item
+            android:id="@+id/nav_2"
+            android:icon="@drawable/telegram2"
+            android:title="New.Tersu" />
+        <item
+            android:id="@+id/bim"
+            android:icon="@drawable/telegram2"
+            android:title="Bimm (Partfoliya)" />
+    </group>
+
+    <item android:title="Axborot resurs markazi">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/alish"
+                    android:icon="@drawable/youtobe"
+                    android:title="Alisher Navoiy Kutubxonasi" />
+                <item
+                    android:id="@+id/Arm1"
+                    android:icon="@drawable/youtobe"
+                    android:title="Tersu ARM" />
+                <item
+                    android:id="@+id/nav_manage"
+                    android:icon="@drawable/youtobe"
+                    android:title="Ziyonet" />
+            </group>
+        </menu>
+    </item>
+
+
+
+
+    <item android:title="Ishtimoyi tarmoq">
+
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/pochta"
+                    android:icon="@drawable/telegram2"
+                    android:title="Korporativ pochta" />
+
+                <item
+                    android:id="@+id/nav_camera"
+                    android:icon="@drawable/instagram"
+                    android:title="Instagram" />
+                <item
+                    android:id="@+id/nav_gallery"
+                    android:icon="@drawable/fecbook"
+                    android:title="Facebook" />
+                <item
+                    android:id="@+id/nav_slideshow"
+                    android:icon="@drawable/youtobe"
+                    android:title="Youtube" />
+                <item
+                    android:id="@+id/xarita"
+                    android:icon="@drawable/youtobe"
+                    android:title="Xarita" />
+                <item
+                    android:id="@+id/aloqa"
+                    android:icon="@drawable/youtobe"
+                    android:title="Aloqa" />
+            </group>
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="jumayev.ilxom.atm.myapplication.Men1"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="225dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="vertical">
+
+            <ImageView
+
+                android:layout_width="150dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/loga">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="Axborot Texnologiyalar Markazi"
+                android:textColor="#fff"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="45dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:paddingLeft="25dp">
+
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/map1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:text="TerDU. Pedagogika fakulteti 2-qavat, 213-xona" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:paddingLeft="25dp">
+
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/telefon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:text="+998930769996" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:paddingLeft="25dp">
+
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/icontelegram" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:text=".@WebAndroid" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:paddingLeft="25dp">
+
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/webicon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:text="http://tersu.uz/" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:paddingLeft="25dp">
+
+            <ImageView
+
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/email" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:text="jumayevilxom16@gmail.com" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+
+
+

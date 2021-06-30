@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="jumayev.ilxom.atm.myapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/loga"
+        android:label="Termiz Davlat Unversiteti"
+        android:roundIcon="@drawable/loga"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Tersu"
+            android:label="Tersu Uz"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Unisys"
+            android:label="Unisys(Elektiron dekanad)"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".New1"
+            android:label="New Tersu"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".talaba"
+            android:label="Unisys(Talaba)"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".bimm1"
+            android:label="Partfoliya"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Masofayi"
+            android:label="@string/title_activity_masofayi"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PochtaK"
+            android:label="Korporotiv pochta"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Kutubxona"
+            android:label="@string/title_activity_kutubxona"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Ishtimoy" />
+        <activity android:name=".ATM" />
+        <activity android:name=".instagram" />
+        <activity android:name=".fesc" />
+        <activity android:name=".youtob" />
+        <activity android:name=".Telegram" />
+        <activity android:name=".texno" />
+        <activity android:name=".Men1"></activity>
+    </application>
+
+</manifest>

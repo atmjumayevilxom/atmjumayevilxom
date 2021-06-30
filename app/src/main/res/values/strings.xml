@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_activity_websayit_bosh">WebsayitBosh</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_unisys">Unisys</string>
+    <string name="title_activity_tersu">Tersu</string>
+    <string name="title_activity_talaba">Talaba</string>
+    <string name="title_activity_bimm">Bimm</string>
+    <string name="title_activity_pochta_k">PochtaK</string>
+    <string name="title_activity_atm9">ATM9</string>
+    <string name="title_activity_karta">Karta</string>
+    <string name="title_activity_new1">New1</string>
+    <string name="title_activity_bimm1">bimm1</string>
+    <string name="title_activity_masofayi">Masofaviy Ta\'lim</string>
+    <string name="title_activity_kutubxona">Kutubxona</string>
+</resources>
